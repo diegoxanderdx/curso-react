@@ -1,1 +1,3 @@
-console.log('Hola mundo!');
+let string = 'Aprendiendo JavaScript';
+
+console.log(string);
