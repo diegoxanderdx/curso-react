@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 export const CounterApp = ({ value }) => {
 //usamos el argumento de setCounter para modificar el valor del counter, por convencion para los cambios se usa set
 //el argumento enviado a useState es el valor por defecto del counter
+//podemos iniciar el estado con el valor value que enviamos desde el main.jsx
   const [ counter, setCounter ] = useState(value);
 
   const handleAdd = () => {
