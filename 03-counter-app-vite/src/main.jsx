@@ -6,7 +6,7 @@ import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <CounterApp value={ 1984 } />
+        <CounterApp value={ 0 } />
     </React.StrictMode>
 );
         
