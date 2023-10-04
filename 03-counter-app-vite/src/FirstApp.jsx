@@ -2,7 +2,7 @@
 const nombre = 'Jorge';
 const getResult = (a, b) => {
   return a + b;
-}
+};
 
 export const FirstApp = () => {
   return (
