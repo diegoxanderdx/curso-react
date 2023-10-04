@@ -13,9 +13,13 @@ export const FirstApp = ( { title, subTitle} ) => {
 
     //podemos mostrar el resultado o retorno de una funcion
   );
-};
+}
 
 FirstApp.propTypes = {
   title: PropTypes.string.isRequired,
   subTitle: PropTypes.number.isRequired
-};
+}
+
+FirstApp.defaultProps = {
+  subTitle: "Soy un subtitulo",
+}
